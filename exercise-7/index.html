@@ -1,0 +1,18 @@
+<input id="name-input" type="text" placeholder="Enter your name" />
+<button id="my-button">Click Me</button>
+
+<script>
+    // Creates a variable called myButton that stores the button element with id #my-button
+    var myButton = document.querySelector('#my-button');
+    // Creates a variable called nameInput that stores the input element with id #name-input
+    var nameInput = document.querySelector('#name-input');
+
+    //Creates a function that is called by a click event listener to the myButton element
+    myButton.addEventListener('click', function () {
+        //If the value inside of nameInput is not an empty string
+        if (nameInput.value !== '') {
+            //Create an alert window that says Hello + the user-input value
+            alert('Hello ' + nameInput.value);
+        }
+    });
+</script>

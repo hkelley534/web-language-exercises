@@ -1,0 +1,12 @@
+body {
+    font-family: Impact;
+    background-color: violet;
+}
+
+#main-title {
+    justify-content: center;
+}
+
+.content {
+    margin-bottom: 12px;
+}
